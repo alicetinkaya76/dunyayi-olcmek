@@ -26,5 +26,13 @@
     "record": "https://www.nli.org.il/he/maps/NNL_ALEPH990025938860205171/NLI",
     "rights": "Public domain; Konrad Miller 1928 reconstruction, not Idrisi original",
     "imageRecord": "https://commons.wikimedia.org/wiki/File:Konrad_Miller,_Charta_Rogeriana_Weltkarte_des_Idrisi_vom_Jahr_1154_n.Ch_(FL147394372_2593886).jpg"
+  },
+  {
+    "file": "earth-texture.jpg",
+    "source": "Three.js official examples",
+    "original": "https://threejs.org/examples/textures/planets/earth_atmos_2048.jpg",
+    "record": "https://github.com/mrdoob/three.js/blob/dev/examples/misc_controls_fly.html",
+    "rights": "Distributed in the official Three.js example assets; project license https://github.com/mrdoob/three.js/blob/dev/LICENSE",
+    "note": "Equirectangular map used on a 3D sphere. This is not the Apollo17 photograph."
   }
 ]

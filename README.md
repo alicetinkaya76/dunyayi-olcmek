@@ -48,3 +48,9 @@ Tarihî stadion, arşın ve mil uzunlukları kesin tek değerler değildir. Hesa
 ## Kontrol edilenler
 
 Üretim derlemesi; 14 bölüm ve 29 soru; altı deneyde hikâye-serbest deneme akışı; Eratosthenes başlangıç hesabı ve slider tepkisi; birimi kendisine çevirme; gerçek görsellerin yüklenmesi ve büyütülmesi; harita/karşılaştırma; 3B küre; masaüstü ve 320/390 piksel telefon genişlikleri kontrol edildi. PDF’in beş sayfası render edilerek incelendi. Tam kapsamlı WCAG uygunluk sertifikasyonu yapılmadı.
+
+## Yeni sergi arayüzü
+
+Koyu gözlemevi açılışı ve gerçek Apollo 17 fotoğrafı; dört dönemden gezilebilen keşif vitrini; 14 bölüme özel etkileşimli bilimsel çizim; tam ekran okuma defteri; Hikâye/Yöntem/Kaynaklar katmanları; büyütülebilen şemalar; arama ve bölüm içi gezinme; tarayıcıda okundu takibi; yeniden tasarlanan deney, harita ve arşiv yüzeyleri. Ana ekrandaki isteğe bağlı Three.js küresi resmî örnek deposundaki equirectangular Dünya haritasını kullanır. Animasyonlar azaltılmış hareket tercihini izler.
+
+Yeni bileşenler: `ChapterReader.jsx`, `ChapterScene.jsx`, `ExhibitModules.css`. GitHub Pages güncellemesi için `npm run build:pages` ile kaynak ve `docs/` birlikte gönderilir.

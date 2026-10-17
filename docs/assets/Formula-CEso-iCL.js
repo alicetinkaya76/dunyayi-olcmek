@@ -1,0 +1,1 @@
+import{j as t}from"./index-J1md1WzB.js";import{k as o}from"./katex.min-DStc31fQ.js";function m({tex:r}){return t.jsx("div",{className:"formula",dangerouslySetInnerHTML:{__html:o.renderToString(r||"",{throwOnError:!1,displayMode:!0,output:"htmlAndMathml"})}})}export{m as default};

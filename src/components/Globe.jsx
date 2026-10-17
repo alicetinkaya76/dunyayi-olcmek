@@ -1,4 +1,115 @@
-import React,{useEffect,useRef,useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
-export default function Globe(){const host=useRef(null),reset=useRef(null),[failed,setFailed]=useState(false);useEffect(()=>{const el=host.current;if(!el)return;let renderer,controls,resize;const disposable=[];try{const scene=new THREE.Scene();scene.background=new THREE.Color('#102734');const camera=new THREE.PerspectiveCamera(36,1,.1,100);camera.position.set(0,1,4.3);renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,powerPreference:'low-power'});renderer.setPixelRatio(Math.min(devicePixelRatio,2));el.appendChild(renderer.domElement);const globe=new THREE.Group();globe.rotation.z=.17;scene.add(globe);const geometry=new THREE.SphereGeometry(1,48,32),material=new THREE.MeshBasicMaterial({color:'#244853'});disposable.push(geometry,material);globe.add(new THREE.Mesh(geometry,material));const gridMaterial=new THREE.LineBasicMaterial({color:'#82998a',transparent:true,opacity:.52}),primeMaterial=new THREE.LineBasicMaterial({color:'#e0b37b'});disposable.push(gridMaterial,primeMaterial);for(let lat=-75;lat<=75;lat+=15){const phi=lat*Math.PI/180,pts=[];for(let i=0;i<=120;i++){const a=i*Math.PI/60;pts.push(new THREE.Vector3(1.004*Math.cos(phi)*Math.sin(a),1.004*Math.sin(phi),1.004*Math.cos(phi)*Math.cos(a)))}const geo=new THREE.BufferGeometry().setFromPoints(pts);disposable.push(geo);globe.add(new THREE.Line(geo,lat===0?primeMaterial:gridMaterial))}for(let lon=0;lon<180;lon+=15){const a=lon*Math.PI/180,pts=[];for(let i=0;i<=120;i++){const b=i*Math.PI/60;pts.push(new THREE.Vector3(1.005*Math.cos(b)*Math.sin(a),1.005*Math.sin(b),1.005*Math.cos(b)*Math.cos(a)))}const geo=new THREE.BufferGeometry().setFromPoints(pts);disposable.push(geo);globe.add(new THREE.Line(geo,lon===0?primeMaterial:gridMaterial))}const locations=[[31.2,29.9],[24.1,32.9],[36.3,41.9],[32.7,73.3],[48.9,2.3],[51.5,0],[-.2,-78.5]];const dotGeo=new THREE.SphereGeometry(.025,10,8),dotMat=new THREE.MeshBasicMaterial({color:'#e8bd83'});disposable.push(dotGeo,dotMat);for(const [lat,lon] of locations){const a=lat*Math.PI/180,b=lon*Math.PI/180,mesh=new THREE.Mesh(dotGeo,dotMat);mesh.position.set(1.02*Math.cos(a)*Math.sin(b),1.02*Math.sin(a),1.02*Math.cos(a)*Math.cos(b));globe.add(mesh)}const render=()=>renderer.render(scene,camera);controls=new OrbitControls(camera,renderer.domElement);controls.enableZoom=false;controls.enablePan=false;controls.addEventListener('change',render);reset.current=()=>{controls.reset();render()};resize=new ResizeObserver(()=>{const s=el.clientWidth;renderer.setSize(s,s);camera.aspect=1;camera.updateProjectionMatrix();render()});resize.observe(el);render()}catch(e){setFailed(true)}return()=>{resize?.disconnect();controls?.dispose();disposable.forEach(o=>o.dispose());renderer?.dispose();if(renderer?.domElement.parentNode===el)el.removeChild(renderer.domElement)}},[]);return <div className="three-globe" ref={host} role="img" aria-label="Enlem ve boylam çizgileri bulunan şematik üç boyutlu Dünya küresi. Fare veya parmakla döndürülebilir.">{failed?<div className="no-globe">Bu cihazda 3B görünüm açılamadı.</div>:<><small>Şematik küre · Sürükleyerek döndür</small><button onClick={()=>reset.current?.()} aria-label="Küreyi başlangıç görünümüne döndür">Görünümü sıfırla</button></>}</div>}
+import './Globe.css';
+
+const asset = name => `${import.meta.env.BASE_URL}images/${name}`;
+
+export default function Globe() {
+  const host = useRef(null);
+  const actions = useRef({});
+  const [status, setStatus] = useState('loading');
+
+  useEffect(() => {
+    const el = host.current;
+    if (!el) return;
+    let active = true, renderer, controls, observer;
+    const resources = [];
+    const dispose = () => {
+      observer?.disconnect();
+      controls?.dispose();
+      resources.forEach(resource => resource.dispose());
+      renderer?.dispose();
+      renderer?.domElement.remove();
+      actions.current = {};
+    };
+    try {
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(33, 1, 0.1, 30);
+      camera.position.set(0, 0.25, 3.8);
+      renderer = new THREE.WebGLRenderer({antialias:true, alpha:true, powerPreference:'low-power'});
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      renderer.setClearColor(0x000000, 0);
+      renderer.outputColorSpace = THREE.SRGBColorSpace;
+      renderer.domElement.setAttribute('aria-hidden', 'true');
+      el.appendChild(renderer.domElement);
+      const geometry = new THREE.SphereGeometry(1, 64, 48);
+      const material = new THREE.MeshPhongMaterial({color:0xffffff, shininess:5, specular:0x17343c});
+      const earth = new THREE.Mesh(geometry, material);
+      earth.rotation.y = -1.65;
+      earth.rotation.z = 0.15;
+      scene.add(earth);
+      resources.push(geometry, material);
+      scene.add(new THREE.AmbientLight(0xc5dbe5, 1.8));
+      const sun = new THREE.DirectionalLight(0xfff3df, 2.4);
+      sun.position.set(-3, 2, 5);
+      scene.add(sun);
+      const render = () => {if(active) renderer.render(scene, camera);};
+      controls = new OrbitControls(camera, renderer.domElement);
+      controls.enablePan = false;
+      controls.enableZoom = false;
+      controls.enableDamping = false;
+      controls.rotateSpeed = 0.55;
+      controls.addEventListener('change', render);
+      controls.saveState();
+      actions.current = {
+        reset:() => {earth.rotation.set(0, -1.65, 0.15); controls.reset(); render();},
+        rotate:(dx,dy) => {
+          earth.rotation.y += dx;
+          earth.rotation.x = THREE.MathUtils.clamp(earth.rotation.x + dy, -1.2, 1.2);
+          render();
+        }
+      };
+      observer = new ResizeObserver(() => {
+        const width = Math.max(el.clientWidth, 1);
+        const height = Math.max(el.clientHeight, 1);
+        renderer.setSize(width, height, false);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        render();
+      });
+      observer.observe(el);
+      new THREE.TextureLoader().load(asset('earth-texture.jpg'), texture => {
+        if (!active) {texture.dispose(); return;}
+        texture.colorSpace = THREE.SRGBColorSpace;
+        texture.anisotropy = Math.min(renderer.capabilities.getMaxAnisotropy(), 4);
+        material.map = texture;
+        material.needsUpdate = true;
+        resources.push(texture);
+        setStatus('ready');
+        render();
+      }, undefined, () => {if(active) setStatus('failed');});
+      renderer.domElement.addEventListener('webglcontextlost', () => {if(active) setStatus('failed');});
+      render();
+    } catch {
+      dispose();
+      setStatus('failed');
+    }
+    return () => {active = false; dispose();};
+  }, []);
+
+  const onKeyDown = event => {
+    const directions = {ArrowLeft:[-0.16,0],ArrowRight:[0.16,0],ArrowUp:[0,-0.12],ArrowDown:[0,0.12]};
+    if (directions[event.key]) {
+      event.preventDefault();
+      actions.current.rotate?.(...directions[event.key]);
+    } else if (event.key === 'Home') {
+      event.preventDefault();
+      actions.current.reset?.();
+    }
+  };
+
+  return <div className="three-globe-v2">
+    <div ref={host} className="three-globe-v2-canvas" tabIndex={0} role="group"
+      aria-label="Üç boyutlu Dünya. Sürükleyerek veya ok tuşlarıyla döndür. Home tuşuyla görünümü sıfırla."
+      onKeyDown={onKeyDown}/>
+    {status !== 'ready' && <div className="three-globe-v2-fallback">
+      <img src={asset('earth.webp')} alt="Apollo 17 görevinde çekilen Dünya fotoğrafı"/>
+      <span role="status">{status === 'failed' ? '3B görünüm bu cihazda açılamadı.' : 'Dünya hazırlanıyor…'}</span>
+    </div>}
+    {status === 'ready' && <div className="three-globe-v2-help">
+      <span>Sürükle veya ok tuşlarıyla döndür</span>
+      <button type="button" onClick={() => actions.current.reset?.()} aria-label="Küreyi başlangıç görünümüne döndür">↺</button>
+    </div>}
+  </div>;
+}

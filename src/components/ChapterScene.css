@@ -1,0 +1,51 @@
+.chapter-scene {
+  --scene-ivory: #f2ebdc;
+  --scene-gold: #c8a66f;
+  --scene-sage: #8fae9f;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  background: #10272e;
+  color: var(--scene-ivory);
+  border: 1px solid rgba(200,166,111,.24);
+  isolation: isolate;
+}
+.chapter-scene .scene-canvas { width: 100%; overflow: hidden; }
+.chapter-scene svg { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; }
+.chapter-scene .scene-label { fill: var(--scene-ivory); font-family: var(--font-sans, 'Inter', 'Arial', sans-serif); font-size: 14px; font-weight: 400; letter-spacing: .025em; }
+.chapter-scene .scene-label.scene-small { font-size: 11px; }
+.chapter-scene .scene-label.scene-muted { fill: var(--scene-sage); }
+.chapter-scene .scene-kicker, .chapter-scene .scene-figure-no { font-size: 9px; letter-spacing: .16em; }
+.chapter-scene .scene-construction { fill: none; stroke: #719084; stroke-width: .85; stroke-dasharray: 4 7; opacity: .55; }
+.chapter-scene .scene-gold { fill: none; stroke: var(--scene-gold); stroke-width: 1.2; }
+.chapter-scene .scene-gold-strong { fill: none; stroke: var(--scene-gold); stroke-width: 3.2; stroke-linecap: round; }
+.chapter-scene .scene-ray { fill: none; stroke: var(--scene-gold); stroke-width: 1.1; stroke-linecap: round; }
+.chapter-scene .scene-leader { fill: none; stroke: var(--scene-sage); stroke-width: .85; opacity: .65; }
+.chapter-scene .scene-terrain { fill: none; stroke: #608070; stroke-width: 1; opacity: .45; }
+.chapter-scene .scene-controls { display: block; padding: 23px 30px 24px; border-top: 1px solid rgba(200,166,111,.2); background: #10282c; }
+.chapter-scene .scene-control-heading { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+.chapter-scene .scene-control-heading label { font-family: var(--font-sans, 'Inter', 'Arial', sans-serif); color: var(--scene-ivory); font-size: 13px; font-weight: 500; line-height: 1.5; cursor: pointer; }
+.chapter-scene .scene-control-mark { font-size: 20px; color: var(--scene-gold); }
+.chapter-scene input[type='range'] { display: block; width: 100%; height: 24px; margin: 15px 0 4px; padding: 0; appearance: none; -webkit-appearance: none; cursor: ew-resize; background: transparent; accent-color: var(--scene-gold); border: 0; border-radius: 0; }
+.chapter-scene input[type='range']::-webkit-slider-runnable-track { height: 2px; background: linear-gradient(90deg,#c8a66f,#56736a); }
+.chapter-scene input[type='range']::-webkit-slider-thumb { appearance: none; -webkit-appearance: none; width: 14px; height: 14px; border: 3px solid #10272e; border-radius: 50%; background: var(--scene-gold); margin-top: -6px; box-shadow: 0 0 0 1px var(--scene-gold); }
+.chapter-scene input[type='range']::-moz-range-track { height: 2px; background: #56736a; }
+.chapter-scene input[type='range']::-moz-range-thumb { width: 9px; height: 9px; border: 3px solid #10272e; border-radius: 50%; background: var(--scene-gold); box-shadow: 0 0 0 1px var(--scene-gold); }
+.chapter-scene input[type='range']:focus-visible { outline: 2px solid var(--scene-gold); outline-offset: 5px; }
+.chapter-scene .scene-range-ends { display: flex; justify-content: space-between; gap: 20px; font-family: var(--font-sans, 'Inter', 'Arial', sans-serif); font-size: 10px; letter-spacing: .03em; color: #8fae9f; }
+.chapter-scene .scene-controls p { padding: 0; margin: 19px 0 0; font-family: var(--font-sans, 'Inter', 'Arial', sans-serif); font-size: 12px; line-height: 1.65; color: #b5c3b7; max-width: none; }
+.chapter-scene--hero { border: 0; }
+.chapter-scene--hero .scene-canvas { mask-image: linear-gradient(to bottom,#000 87%,transparent); }
+.chapter-scene--compact, .chapter-scene--thumbnail, .chapter-scene--small { border: 0; }
+.chapter-scene--compact .scene-kicker, .chapter-scene--compact .scene-figure-no,
+.chapter-scene--thumbnail .scene-kicker, .chapter-scene--thumbnail .scene-figure-no,
+.chapter-scene--small .scene-kicker, .chapter-scene--small .scene-figure-no { opacity: .5; }
+@media (max-width: 600px) {
+  .chapter-scene .scene-controls { padding: 19px 20px 21px; }
+  .chapter-scene .scene-control-heading label { font-size: 12px; }
+  .chapter-scene .scene-range-ends { font-size: 9px; }
+  .chapter-scene .scene-controls p { font-size: 11px; margin-top: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chapter-scene *, .chapter-scene *::before, .chapter-scene *::after { animation: none !important; transition: none !important; }
+}
