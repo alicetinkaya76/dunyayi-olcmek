@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "eratosthenes",
+    "title": "İki gölgeyle bir gezegen",
+    "person": "Eratosthenes",
+    "date": "MÖ 240 civarı",
+    "place": "İskenderiye ve Syene (Asvan), Mısır",
+    "era": "Antik",
+    "year": -240,
+    "coords": [
+      31.2,
+      29.92
+    ],
+    "hook": "Bir kitaplık yöneticisi, yaşadığı gezegenin çevresini nasıl öğrenebilir?",
+    "story": [
+      "Eratosthenes İskenderiye'de çalışıyordu. Güneydeki Syene'de yaz gündönümünde öğle Güneşi neredeyse başın tepesine gelirken, İskenderiye'de dik bir çubuk gölge bırakıyordu. Bu fark ona Dünya'nın büyüklüğüne açılan bir kapı sundu.",
+      "Güneş çok uzakta olduğu için iki şehre gelen ışınları birbirine paralel kabul etti. Küre biçimindeki Dünya'da iki çubuğun yukarı yönleri aynı değildir. Gölge farkı, iki şehir arasında Dünya'nın ne kadar kıvrıldığını gösterir. Geriye şehirler arasındaki mesafeyi bu küçük parçaya eşlemek kalır.",
+      "Kendi ölçüm kitabı kayıp. Yöntemi sonraki yazarların aktarımlarından biliyoruz. Yol mesafesinin tam olarak kimlerce, nasıl belirlendiğini kesin bir sahne gibi anlatamayız."
+    ],
+    "analogy": "Bir pizzanın ellide birlik diliminin dış kenarını ölçtüğünü düşün. Aynı parçadan elli tane bütün çevreyi tamamlar.",
+    "steps": [
+      "Aynı gündönümünde iki yerde yerel öğle gölgelerini karşılaştır.",
+      "İki yer arasındaki kuzey-güney mesafesini öğren.",
+      "Gölge farkının gösterdiği küçük Dünya parçasını tam tura büyüt."
+    ],
+    "tools": [
+      "Dik çubuk veya gölge ölçer",
+      "Açı ölçeği",
+      "Mesafe bilgileri"
+    ],
+    "result": "Aktarımlarda yaklaşık 250.000 stadion; başka kaynaklarda 252.000 stadion. Stadionun uzunluğu seçilmeden tek bir kilometre sonucu verilemez. Bugün kuzey-güney tam tur yaklaşık 40.008 km'dir.",
+    "uncertainty": "Stadionun uzunluğu tartışmalı. Şehirler tam aynı meridyen üzerinde değil; Syene de dönencenin tam üzerinde değildi. Farklı gölgeler tek başına yeterli kanıt değildir: yöntemde uzak Güneş ve küre Dünya modeli birlikte kullanılır.",
+    "impact": "Gezegenin boyutunun, küçük bir yer ölçümü ve bir gök gözlemi birleştirilerek bulunabileceğini gösterdi.",
+    "funFact": "Eratosthenes yalnızca coğrafyayla ilgilenmedi; asal sayıları elemek için kullanılan yöntem de onun adıyla anılır.",
+    "takeaway": "Küçük bir gölge farkı, bilinen bir mesafeyle birleşince bütün Dünya'nın boyutunu anlatabilir.",
+    "more": "Öğretici örnek: 7,2 derece tam turun ellide biridir. İki yer arası 800 km olsaydı, 800 × 50 = 40.000 km bulurduk. Bu yuvarlatılmış bir örnektir; tarihsel mesafenin kesin kilometre karşılığı değildir.",
+    "math": "C=\\frac{360^\\circ}{\\Delta\\theta}d,\\qquad \\Delta\\theta=7.2^\\circ\\Rightarrow C=50d",
+    "quiz": [
+      {
+        "question": "Aynı mesafede gölge farkı daha küçük olsaydı, küre Dünya modeli bize ne söylerdi?",
+        "options": [
+          "Dünya daha büyük",
+          "Dünya daha küçük",
+          "Hiçbir şey değişmez"
+        ],
+        "correct": 0,
+        "explanation": "Aynı yolu yürürken daha az kıvrılmak, daha büyük bir kürenin üzerinde olmak demektir."
+      },
+      {
+        "question": "Tarihsel sonucu kilometreye çevirmeyi en çok ne zorlaştırır?",
+        "options": [
+          "Güneşin rengini bilmemek",
+          "Stadionun hangi uzunlukta olduğunu bilmemek",
+          "Kütüphanenin büyüklüğü"
+        ],
+        "correct": 1,
+        "explanation": "Sayının yanında birimin uzunluğu da bilinmelidir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of St Andrews · Eratosthenes biyografisi",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/"
+      },
+      {
+        "title": "Dictionary of Scientific Biography · Eratosthenes (St Andrews arşivi)",
+        "url": "https://mathshistory.st-andrews.ac.uk/DSB/Eratosthenes.pdf"
+      },
+      {
+        "title": "NOAA · The Shadow Knows I",
+        "url": "https://www.noaa.gov/jetstream/global/learning-lesson-shadow-knows-i"
+      }
+    ]
+  },
+  {
+    "id": "posidonius",
+    "title": "Ufuktaki yıldızın ipucu",
+    "person": "Posidonius",
+    "date": "MÖ 1. yüzyıl",
+    "place": "Rodos ve İskenderiye",
+    "era": "Antik",
+    "year": -100,
+    "coords": [
+      36.43,
+      28.22
+    ],
+    "hook": "Gölgenin yerine bir yıldızı kullansak aynı soruyu çözebilir miyiz?",
+    "story": [
+      "Posidonius'a atfedilen yöntemde gözler güneydeki parlak Canopus yıldızına çevrilir. Cleomedes'in aktarımında yıldız Rodos'ta ufka çok yakın, İskenderiye'de ise daha yukarıda görünür.",
+      "Kuzeyden güneye gidildiğinde gözlemcinin ufku değişir. Yıldızın en yüksek konumları arasındaki fark, iki yer arasındaki Dünya yayını gösterir. Şehirler arasındaki yol biliniyorsa bütün çevreye geçilebilir.",
+      "Bu da elimize Posidonius'un kendi ölçüm defteriyle ulaşmadı. Sonraki anlatımlar farklı çevre sayıları aktarır. İyi bir fikirle iyi bir ölçümün aynı şey olmadığını burada açıkça görürüz."
+    ],
+    "analogy": "Yuvarlak bir topun üzerinde duran iki minik insan düşün. Uzak bir lambaya bakarken başlarını aynı miktarda kaldırmazlar.",
+    "steps": [
+      "Canopus'un iki şehirde ulaşabildiği en yüksek konumu gözle.",
+      "Ufuktan yüksekliklerin farkını ve şehirler arası mesafeyi eşle.",
+      "Bu yayın tam turun ne kadarı olduğunu kullanarak çevreyi tahmin et."
+    ],
+    "tools": [
+      "Yıldız gözlemi",
+      "Ufuk ve açı ölçümü",
+      "Deniz yolu mesafe tahmini"
+    ],
+    "result": "Cleomedes'in örneğinde 5.000 stadionluk yol, tam turun kırk sekizde biridir: 240.000 stadion. 180.000 stadionluk farklı bir değer de sonraki gelenekte Posidonius'la ilişkilendirilir; bunlar aynı kesin ölçüm gibi sunulmamalıdır.",
+    "uncertainty": "Ufka yakın yıldızların görüntüsü atmosferde bükülür. Şehirlerin meridyenleri ve mesafe tahmini de tam değildir. Stadion seçimi yüzünden güvenilir tek bir kilometre ve hata yüzdesi verilemez.",
+    "impact": "Dünya'nın büyüklüğünü anlamak için Güneş dışında yıldızların da kullanılabileceğini gösteren bir örnek bıraktı.",
+    "funFact": "Bugün bu yöntemin ayrıntılarını en çok, ondan sonra yaşamış Cleomedes'in anlatımı sayesinde biliyoruz.",
+    "takeaway": "Aynı yıldızın farklı ufuklarda farklı görünmesi, Dünya'nın eğriliğini ölçmeye yarar.",
+    "more": "Cleomedes'in aktardığı örnek: 5.000 × 48 = 240.000 stadion. Mesafeyi dörtte bir eksik alırsan, çevre de dörtte bir eksik çıkar.",
+    "math": "C=\\frac{360^\\circ}{|h_2-h_1|}d,\\qquad \\Delta h=7.5^\\circ\\Rightarrow C=48d",
+    "quiz": [
+      {
+        "question": "Canopus ufka çok yakınken hangi etki özellikle sorun olur?",
+        "options": [
+          "Kâğıdın kalınlığı",
+          "Atmosferin ışığı bükmesi",
+          "Takvimin kapağı"
+        ],
+        "correct": 1,
+        "explanation": "Atmosferde kırılma, yıldızı gerçek konumundan daha yukarıda gösterebilir."
+      },
+      {
+        "question": "Mesafeyi olduğundan kısa alırsan bulduğun Dünya çevresi ne olur?",
+        "options": [
+          "Daha kısa",
+          "Daha uzun",
+          "Aynı"
+        ],
+        "correct": 0,
+        "explanation": "Küçük yayın uzunluğu eksikse, onu büyüterek bulduğun çevre de eksik olur."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cleomedes · Dünya çevresi anlatımının çevirisi, fragman 97",
+        "url": "https://www.attalus.org/translate/poseidonius.html"
+      },
+      {
+        "title": "Bowen ve Todd · Cleomedes' Lectures on Astronomy, Bölüm 7",
+        "url": "https://academic.oup.com/california-scholarship-online/book/15084/chapter-abstract/169511497"
+      }
+    ]
+  },
+  {
+    "id": "ptolemy",
+    "title": "Dünya'ya bir adres defteri",
+    "person": "Klaudios Batlamyus",
+    "date": "MS 2. yüzyıl",
+    "place": "İskenderiye, Mısır",
+    "era": "Antik",
+    "year": 150,
+    "coords": [
+      31.2,
+      29.92
+    ],
+    "hook": "Bir harita kaybolsa, içindeki şehirleri yalnızca bir listeyle yeniden çizebilir misin?",
+    "story": [
+      "Batlamyus'un Coğrafya adlı eseri yalnızca bir dünya resmi sunmadı. Yerleri kuzey-güney ve doğu-batı konumlarıyla kaydetti. Böylece başka biri aynı bilgilerden yeni bir harita kurabilirdi.",
+      "Bu adres ağı bugün enlem ve boylam dediğimiz fikrin bir örneğidir. Ekvator kuzey-güney ölçüsüne doğal bir başlangıç verir. Doğu-batı içinse bir başlangıç çizgisi seçmek gerekir. Batlamyus, genellikle Kanarya Adalarıyla ilişkilendirilen Mutlu Adalar'ı kullandı.",
+      "Ancak düzenli bir liste, yanlış bilgiyi kendiliğinden düzeltmez. Dünya'nın ölçeği ve yolculuklardan gelen mesafeler hatalıysa, çizilen kıyılar da gerilir veya sıkışır. Akdeniz haritasındaki uzama bunun ünlü bir örneğidir."
+    ],
+    "analogy": "Kareli bir kâğıtta arkadaşına bir noktanın satırını ve sütununu söylersin. Dünya üzerindeki adres de benzer biçimde iki yön bilgisi taşır.",
+    "steps": [
+      "Bir yerin Ekvator'a göre kuzey-güney konumunu belirle.",
+      "Seçilmiş başlangıç çizgisine göre doğu-batı konumunu kaydet.",
+      "Listedeki yerleri seçilen harita yöntemine göre kâğıda aktar."
+    ],
+    "tools": [
+      "Gök gözlemleri",
+      "Gezgin ve denizci kayıtları",
+      "Koordinat tabloları",
+      "Harita çizim yöntemleri"
+    ],
+    "result": "Yaklaşık 8.000 yer için koordinat aktaran etkili bir coğrafya sistemi. Bu, yeni ve bağımsız tek bir Dünya çevresi ölçümü değildir; eserde benimsenen küçük Dünya ölçeği haritadaki bozulmaların nedenlerinden biridir.",
+    "uncertainty": "Koordinatların çoğu doğrudan gök ölçümü değil, derlenen yol bilgilerine dayanıyordu. Antik yer adlarının bugünkü yerlerle eşleştirilmesi ve stadionun uzunluğu ayrıca tartışmalıdır.",
+    "impact": "Haritanın yeniden üretilebilmesini sağlayan sistemli bir yer listesi geleneğini güçlendirdi.",
+    "funFact": "Haritanın başlangıç meridyeni Greenwich olmak zorunda değildir; farklı toplumlar uzun süre farklı başlangıçlar kullandı.",
+    "takeaway": "Bir haritanın düzenli görünmesi, içindeki bütün mesafelerin doğru olduğu anlamına gelmez.",
+    "more": "Aynı yolu gereğinden küçük bir Dünya'ya yerleştirirsen daha çok harita dilimine yayarsın. Bu yüzden gezegenin ölçeği, haritadaki doğu-batı açıklığını da etkiler.",
+    "math": "\\Delta\\lambda=\\frac{d}{R\\cos\\varphi}\\quad(\\text{radyan; paralel boyunca ideal model})",
+    "quiz": [
+      {
+        "question": "Bir haritayı yalnızca yer listesinden yeniden çizmek için ne gerekir?",
+        "options": [
+          "Şehirlerin renkleri",
+          "Her yer için iki yönlü konum bilgisi",
+          "Bütün şehirlerin nüfusu"
+        ],
+        "correct": 1,
+        "explanation": "Kuzey-güney ve doğu-batı konumları, yerleri bir ağın üzerine yerleştirmeyi sağlar."
+      },
+      {
+        "question": "Başlangıç meridyenini farklı seçmek neyi değiştirir?",
+        "options": [
+          "Dünya'nın gerçek büyüklüğünü",
+          "Yerlerin doğu-batı adreslerini",
+          "Kutup noktalarının yerini"
+        ],
+        "correct": 1,
+        "explanation": "Başlangıç çizgisi bir uzlaşıdır; fiziksel Dünya'yı değiştirmez."
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of St Andrews · Haritacılık tarihi",
+        "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Cartography/"
+      },
+      {
+        "title": "Shcheglov, 2018 · Batlamyus'un kıyı uzunlukları ve harita bozulmaları",
+        "url": "https://hgss.copernicus.org/articles/9/9/2018/"
+      }
+    ]
+  },
+  {
+    "id": "aryabhata",
+    "title": "Dünyayı hesaplamak, bilgiyi taşımak",
+    "person": "Aryabhata ve Hint astronomisi",
+    "date": "499 ve sonraki yüzyıllar",
+    "place": "Kusumapura; genellikle bugünkü Patna çevresiyle ilişkilendirilir",
+    "era": "Orta Çağ",
+    "year": 499,
+    "coords": [
+      25.61,
+      85.14
+    ],
+    "hook": "Kısa dizeler, bir gezegenin hesabını yüzyıllar boyunca taşıyabilir mi?",
+    "story": [
+      "Aryabhata genç yaşta yazdığı Aryabhatiya'da gök olaylarını ve hesap kurallarını kısa dizelerle topladı. Dünya'nın boyutu da bu hesap dünyasının bir parçasıydı. Metinde gezegenin kendi çevresinde dönmesi fikri de yer alır.",
+      "Burada elimizde ayrıntılı bir arazi ölçüm günlüğü yok. Dünya'nın çapı ve çevresi için verilen değerler, bir astronomi modelinin içinde karşımıza çıkar. Sonucu değerlendirirken o dönemin yojana adlı uzunluk birimini nasıl çevirdiğimiz önemlidir.",
+      "Bilgi yalnızca sayılarla yolculuk etmedi. Sanskritçedeki jyā sözcüğünün Arapça aktarımları ve daha sonra Latinceye çevrilmesi, bugün sinüs dediğimiz terimin adının oluşmasına katkı yaptı. Bu, tek bir kişinin tek seferde yaptığı bir çeviri değildi."
+    ],
+    "analogy": "Bir tarifin farklı dillerde elden ele geçtiğini düşün. Yemek yapma fikri korunabilir ama ölçü kabının büyüklüğü ve bir kelimenin anlamı değişebilir.",
+    "steps": [
+      "Bir gök modeli içinde Dünya'nın boyutunu ve hareketini tarif et.",
+      "Çapla çevre arasındaki ilişkiyi hesap tablolarıyla kullan.",
+      "Metni sonraki okuyucuların birim ve çeviri tercihleriyle birlikte değerlendir."
+    ],
+    "tools": [
+      "Astronomi gözlemleri ve modelleri",
+      "Hesap kuralları",
+      "Sinüs tabloları",
+      "Dize biçiminde bilim metni"
+    ],
+    "result": "MacTutor'un aktardığı değer yaklaşık 4.967 yojana çevredir. Yojanayı yaklaşık 8 km alırsak yaklaşık 40.000 km elde ederiz; bu koşullu dönüşüm kesin bir tarihsel doğruluk yüzdesi vermez.",
+    "uncertainty": "Yojananın karşılığı bağlama ve yoruma bağlıdır. Kusumapura'nın yeri ve Aryabhata'nın yaşamına ilişkin bazı ayrıntılar tartışmalıdır. Sayıların bulunma süreci bütünüyle belgelenmiş değildir.",
+    "impact": "Hint hesap astronomisi, sonraki İslam dünyası ve Avrupa bilim geleneklerinin yararlandığı kaynaklardan biri oldu.",
+    "funFact": "Aryabhatiya, uzun bir ders kitabının birçok fikrini kısa ve ezberlenebilir dizelere sığdırır.",
+    "takeaway": "Eski bir sayıyı anlamak için hesabı kadar birimini ve aktarım yolunu da öğrenmeliyiz.",
+    "more": "Örnek dönüşüm: 4.967 × 8 = 39.736 km. Sekiz kilometre yalnızca gösterim için seçilmiştir; yojananın kesin ve evrensel uzunluğu olarak sunulmaz.",
+    "math": "C=\\pi D,\\qquad \\pi\\approx\\frac{62832}{20000}=3.1416",
+    "quiz": [
+      {
+        "question": "Eski bir yojana değerini kilometreye çevirirken neye dikkat etmeliyiz?",
+        "options": [
+          "Birim için hangi uzunluğun seçildiğine",
+          "Metnin sayfa rengine",
+          "Bugünün saatine"
+        ],
+        "correct": 0,
+        "explanation": "Aynı sayı, farklı birim uzunlukları seçilince farklı kilometre sonuçları verir."
+      },
+      {
+        "question": "Bir bilim sözcüğünün diller arasında değişmesi neyi hatırlatır?",
+        "options": [
+          "Bilginin hiç aktarılmadığını",
+          "Çevirinin bilim tarihinin bir parçası olduğunu",
+          "Bütün hesapların aynı dilde yapıldığını"
+        ],
+        "correct": 1,
+        "explanation": "Terimler de metinlerle birlikte taşınır ve dönüşür."
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of St Andrews · Aryabhata biyografisi",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/"
+      },
+      {
+        "title": "University of St Andrews · Trigonometrik fonksiyonların tarihi",
+        "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/"
+      }
+    ]
+  },
+  {
+    "id": "sincar",
+    "title": "İki ekip, tek soru",
+    "person": "Me'mun döneminin ölçüm ekipleri",
+    "date": "9. yüzyılın ilk yarısı; 830 civarı",
+    "place": "Sincar Ovası, bugünkü Irak",
+    "era": "Orta Çağ",
+    "year": 830,
+    "coords": [
+      36.32,
+      41.87
+    ],
+    "hook": "Kitapta yazan bir uzaklığın birimini bilmiyorsan ne yaparsın?",
+    "story": [
+      "Biruni'nin sonradan aktardığına göre Me'mun, eski kitaplarda Dünya ölçüleriyle karşılaştı. Fakat stadionun yerel birimlerle tam karşılığı açık değildi. Bir sayıyı kopyalamak yerine yeniden ölçmek gerekiyordu.",
+      "Sincar Ovası'nda iki ekip ortak bir yerden kuzeye ve güneye ilerledi. Yol uzunluğunu ölçüp işaretlediler. Aktarımlardan birinde gökteki değişim, Güneş'in öğle yüksekliğiyle izlendi; yıl içindeki Güneş hareketinin etkisi de ayrıldı. Geri dönerken mesafeleri yeniden kontrol ettiler.",
+      "Buradaki güçlü fikir yalnızca yürümek değildi. Aynı soruya iki yönden yaklaşmak ve ölçümü tekrarlamak, hatayı görünür kılıyordu. Ayrıntılar bize farklı dönemlerde yazılmış metinlerden ulaştığı için tek ve eksiksiz bir deney filmi kuramayız."
+    ],
+    "analogy": "Bir futbol topunun üzerinde yürüyen karıncayı düşün. Uzak bir ışığa göre başını kaldırma biçimi değişirken, yürüdüğü yolu da sayar.",
+    "steps": [
+      "Düz bir alanda başlangıç yerinin göğe göre konumunu gözle.",
+      "Kuzeye ve güneye ilerlerken yol uzunluğunu ve gökteki değişimi izle.",
+      "Belirli değişime ulaştığında geri dön; yolu yeniden ölç ve sonuçları karşılaştır."
+    ],
+    "tools": [
+      "Mesafe ölçme araçları ve yer işaretleri",
+      "Gök yüksekliği ölçerler",
+      "Gözlem kayıtları",
+      "İki ölçüm ekibi"
+    ],
+    "result": "Ekiplerin bulduğu yol uzunluğu, kuzey–güney doğrultusundaki küçük bir gök değişimini Dünya’nın büyüklüğüne bağladı. Bugünkü birimlerle karşılığı, eski milin nasıl yorumlandığına bağlıdır.",
+    "uncertainty": "Mil ve arşın uzunlukları, ekipler ve saha ayrıntıları tartışmalıdır. Bazı anlatılar farklı yer ve gözlem düzenleri verir. Kutup Yıldızı gök kutbunun tam üzerinde değildir; yıldız yüksekliğini doğrudan enlem saymak ek düzeltme gerektirir.",
+    "impact": "Çeviriyle gelen bilgiyi yeni gözlemle sınama ve ölçümleri karşılaştırma yaklaşımını örnekledi; harita ve astronomi tablolarına dayanak sağladı.",
+    "funFact": "Dönüş yolundaki ikinci ölçüm, ilk yürüyüşün sonucuna hemen güvenilmediğini gösterir.",
+    "takeaway": "Bir ölçü birimi belirsizse yeniden ölçmek ve sonucu tekrarla denetlemek gerekir.",
+    "more": "56⅔ × 360 = 20.400 tarihsel mil. Öğretici varsayım olarak bir mili 2 km seçersek 40.800 km çıkar; bu, tarihsel milin kesin uzunluğu değildir.",
+    "math": "C=360L_{1^\\circ},\\qquad L_{1^\\circ}=56\\tfrac{2}{3}\\;\\text{mil}\\Rightarrow C=20400\\;\\text{mil}",
+    "quiz": [
+      {
+        "question": "İki ekibin ölçümlerini karşılaştırmak neden yararlı?",
+        "options": [
+          "Gezegeni büyüttüğü için",
+          "Hataları fark etme şansı verdiği için",
+          "Yürümeyi gereksiz kıldığı için"
+        ],
+        "correct": 1,
+        "explanation": "Birbirinden farklı sonuçlar, ölçüm düzenini ve hata kaynaklarını yeniden incelemeyi sağlar."
+      },
+      {
+        "question": "56⅔ mil sayısını bilmek neden tek başına yeterli değil?",
+        "options": [
+          "Milin ne kadar uzun olduğunu da bilmeliyiz",
+          "Sayının yazı tipini bilmeliyiz",
+          "Herkes aynı ayakkabıyı giymelidir"
+        ],
+        "correct": 0,
+        "explanation": "Bir sayının fiziksel anlamı, kullanılan birimin uzunluğuna bağlıdır."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Biruni'nin metninden aktarım · Coordinates of Cities, St Andrews",
+        "url": "https://mathshistory.st-andrews.ac.uk/Extras/Al-Biruni_coordinates/"
+      },
+      {
+        "title": "David Pingree · Biruni'nin coğrafya çalışmaları, Encyclopaedia Iranica",
+        "url": "https://www.iranicaonline.org/articles/biruni-abu-rayhan-index/biruni-abu-rayhan-iv/"
+      },
+      {
+        "title": "History of Cartography · Geodesy, University of Chicago Press",
+        "url": "https://press.uchicago.edu/books/HOC/HOC_V2_B1/HOC_VOLUME2_Book1_chapter8.pdf"
+      }
+    ]
+  },
+  {
+    "id": "biruni",
+    "title": "Bir dağdan Dünya'ya bakmak",
+    "person": "Ebu Reyhan Biruni",
+    "date": "11. yüzyılın ilk yarısı",
+    "place": "Nandana, bugünkü Pakistan",
+    "era": "Orta Çağ",
+    "year": 1030,
+    "coords": [
+      32.72,
+      73.28
+    ],
+    "hook": "Uzun yolları ölçmeden, bir dağın tepesinden Dünya'nın büyüklüğünü bulabilir misin?",
+    "story": [
+      "Biruni, Dünya'nın boyutuna ulaşmak için uzun bir meridyen yolculuğuna alternatif aradı. Nandana'da önce bir dağın yüksekliğini belirledi. Bunun için düzlükteki farklı konumlardan tepeye baktı.",
+      "Sonra dağın tepesinden uzak ufku gözledi. Yükseğe çıktığında ufuk yalnızca uzaklaşmaz; tam yatay bakışının biraz altında kalır. Bu küçük düşüş, yüksekliği bilinen dağla birlikte Dünya'nın boyutunu anlatır.",
+      "Fikir zariftir ama uygulaması çok hassastır. Toz, ufku seçme zorluğu ve havanın ışığı bükmesi küçük gözlemi değiştirir. Bu yüzden internette sık görülen olağanüstü kesinlik yüzdelerine koşulsuz güvenemeyiz."
+    ],
+    "analogy": "Küçük bir topun tepesine çıkarsan yüzey hızla aşağı kıvrılır. Çok büyük bir topun üzerinde aynı yüksekliğe çıktığında ufuk çok daha az düşer.",
+    "steps": [
+      "Düzlükte iki konum ve tepeye bakışlarla dağın yüksekliğini bul.",
+      "Tepeden, yatay doğrultuya göre ufkun ne kadar aşağıda göründüğünü ölç.",
+      "Bu yükseklik ve ufuk düşüşünü küre modeliyle birleştir."
+    ],
+    "tools": [
+      "Açı ölçer",
+      "Düzlükte bir taban mesafesi",
+      "Yatay doğrultu",
+      "Açık ve seçilebilir ufuk"
+    ],
+    "result": "Biruni, dağ yüksekliği ve ufuk gözleminden Dünya yarıçapına geçilen bir yöntem verdi. Eserlerinde bir derecenin uzunluğu için farklı değerler bulunur. Arşın dönüşümü seçilmeden tek bir kesin kilometre ve hata yüzdesi vermiyoruz.",
+    "uncertainty": "Atmosferik kırılma ufku yükseltir; basit model bunu içermez. Açı çok küçük olduğu için ufak okuma hatası büyük sonuç farkı üretir. Tarihsel aletin duyarlığı ve arşın uzunluğu da sınırlayıcıdır.",
+    "impact": "Doğrudan çok uzun bir yay ölçmek yerine, yerel bir geometrik düzenle gezegen boyutuna ulaşmanın güçlü bir örneğini sundu.",
+    "funFact": "Yöntem uzun bir çöl boyunca ip germeyi gerektirmez; yine de dağın yüksekliğini belirlemek için yerde bir mesafe gerekir.",
+    "takeaway": "Yüksekliğini bildiğimiz bir yerden ufkun düşüşü, Dünya'nın büyüklüğüne dair bilgi taşır.",
+    "more": "Dağ yüksekliği aynı kalırken ufuk daha az aşağıda görünüyorsa model daha büyük bir Dünya verir. Simülasyonda tek bir şeyi değiştirip bu ilişkiyi izle.",
+    "math": "R=\\frac{h\\cos\\delta}{1-\\cos\\delta},\\qquad C=2\\pi R\\quad(\\text{küre; kırılma yok})",
+    "quiz": [
+      {
+        "question": "Aynı yüksekliğe çıktığında ufuk daha az düşüyorsa hangi topun üzerindesin?",
+        "options": [
+          "Daha küçük",
+          "Daha büyük",
+          "İkisinde de zorunlu olarak aynı"
+        ],
+        "correct": 1,
+        "explanation": "Büyük küre, aynı yükseklikteki gözlemcinin altında daha yavaş kıvrılır."
+      },
+      {
+        "question": "Bu yöntemde havanın ışığı bükmesi neden önemli?",
+        "options": [
+          "Ufkun görünen yerini değiştirdiği için",
+          "Dağın taşlarını büyüttüğü için",
+          "Mesafe birimini değiştirdiği için"
+        ],
+        "correct": 0,
+        "explanation": "Çok küçük ufuk açısı değişirse hesaplanan yarıçap belirgin biçimde değişebilir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "David Pingree · Biruni'nin coğrafyası, Encyclopaedia Iranica",
+        "url": "https://www.iranicaonline.org/articles/biruni-abu-rayhan-index/biruni-abu-rayhan-iv/"
+      },
+      {
+        "title": "University of St Andrews · Biruni ve dağ yönteminin geometrisi",
+        "url": "https://mathshistory.st-andrews.ac.uk/Strick/al-biruni.pdf"
+      },
+      {
+        "title": "History of Cartography · Geodesy, gözlem ve kırılma tartışması",
+        "url": "https://press.uchicago.edu/books/HOC/HOC_V2_B1/HOC_VOLUME2_Book1_chapter8.pdf"
+      }
+    ]
+  },
+  {
+    "id": "fernel",
+    "title": "Tekerleğin saydığı yol",
+    "person": "Jean Fernel",
+    "date": "1520'ler · Cosmotheoria 1528",
+    "place": "Paris–Amiens yönü, Fransa",
+    "era": "Modern",
+    "year": 1525,
+    "coords": [
+      48.86,
+      2.35
+    ],
+    "hook": "Bir araba tekerleği, gezegen büyüklüğünde bir soruya yardım edebilir mi?",
+    "story": [
+      "Hekim ve bilgin Jean Fernel, gökteki konum değişimiyle yerdeki uzaklığı birleştirdi. Paris'ten kuzeye, Amiens yönüne giderken araba tekerleğinin dönüşlerini saydı. Çalışması 1528'de yayımlanan Cosmotheoria'da yer aldı.",
+      "Bir tekerleğin çevresini biliyorsan her tam dönüş bir yol parçasıdır. Fernel bu yol bilgisini gök gözlemleriyle eşleştirerek kuzey-güney doğrultusundaki bir Dünya diliminin uzunluğunu bulmaya çalıştı.",
+      "Fakat yol düz bir meridyen çizgisi değildir. Virajlar, yokuşlar, tekerleğin kayması ve gözlem hataları sonucu etkiler. Sonucun yakın çıkması, bütün bu etkilerin tek tek giderildiği anlamına gelmez."
+    ],
+    "analogy": "Bisikletinin tekerleğine bir işaret koy. İşaret her başa döndüğünde tekerleğin çevresi kadar yol alırsın; kayma olmazsa dönüş sayacı bir mesafe sayacına dönüşür.",
+    "steps": [
+      "Tekerleğin bir tam dönüşte ne kadar yol aldığını ölç.",
+      "Yolculukta dönüşleri say ve gökteki kuzey-güney konum değişimini gözle.",
+      "Yolun meridyenden sapmalarını düşünerek küçük yaydan bütün çevreye geç."
+    ],
+    "tools": [
+      "Araba ve tekerlek",
+      "Dönüş sayımı",
+      "Gök yüksekliği ölçümü",
+      "Toise adlı uzunluk birimi"
+    ],
+    "result": "Fransız Tıp Akademisi kaynağı bir derece için 56.746 toise aktarır; bu yaklaşık 111 km ölçeğindedir. Sonucun ve tarihinin farklı kaynaklarda farklı yazımları vardır.",
+    "uncertainty": "Brief'teki 1525 yılı kesin ölçüm tarihi gibi verilmez. 1528 eser tarihi doğrulanabilir. Yolun kıvrımları ve tekerleğin davranışı ölçüm hatasına yol açar; kaynaklarda sonuç sayıları da farklıdır.",
+    "impact": "Gündelik bir mekanik düzenle mesafe ölçmenin, astronomiyle birleştiğinde büyük ölçekli sorulara uygulanabileceğini gösterdi.",
+    "funFact": "Fernel'in bugün en çok tanındığı alan tıp olsa da kitapları astronomi ve matematiği de kapsar.",
+    "takeaway": "Dönüş sayısı mesafeye çevrilebilir; ama gidilen yolun gerçekten hangi yolu temsil ettiğini bilmek gerekir.",
+    "more": "Örnek: Çevresi 2 metre olan tekerlek 500 kez dönerse 1.000 metre yol sayar. Kayma ve yol sapmaları ayrıca değerlendirilir.",
+    "math": "d=N\\ell,\\qquad C=\\frac{360^\\circ}{\\Delta\\varphi}d_{\\mathrm{meridyen}}",
+    "quiz": [
+      {
+        "question": "Araba dolambaçlı bir yoldan giderse tekerlek sayısı neyi ölçer?",
+        "options": [
+          "İki yer arasındaki zorunlu en kısa yolu",
+          "Arabanın gerçekten gittiği yolu",
+          "Doğrudan Dünya'nın yarıçapını"
+        ],
+        "correct": 1,
+        "explanation": "Tekerlek sayacı virajları da sayar; bunu kuzey-güney yayına çevirmek ayrı bir iştir."
+      },
+      {
+        "question": "Tekerlek kayarsa ne olur?",
+        "options": [
+          "Dönüş ve yol arasındaki eşleşme bozulabilir",
+          "Dünya'nın büyüklüğü değişir",
+          "Bütün gök gözlemleri iptal olur"
+        ],
+        "correct": 0,
+        "explanation": "Dönüşle mesafe arasında kurduğumuz ilişki, kaymadan yuvarlanma varsayımına dayanır."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Académie nationale de médecine · Jean Fernel ve hümanist bilim",
+        "url": "https://www.academie-medecine.fr/jean-fernel-et-lesprit-humaniste/"
+      },
+      {
+        "title": "Universitat de Barcelona · Dünya'nın şekli tartışmasının öncülleri",
+        "url": "https://www.ub.edu/geocrit/geo46.htm"
+      }
+    ]
+  },
+  {
+    "id": "snellius",
+    "title": "Yürümek yerine üçgen kurmak",
+    "person": "Willebrord Snellius",
+    "date": "1615–1617",
+    "place": "Alkmaar–Leiden–Bergen op Zoom, Hollanda",
+    "era": "Modern",
+    "year": 1615,
+    "coords": [
+      52.16,
+      4.49
+    ],
+    "hook": "Her metreyi yerde ölçmeden iki kent arasındaki uzaklığı bulabilir misin?",
+    "story": [
+      "Snellius, Hollanda'daki kuleleri birbirine bakan işaretler gibi kullandı. Yerde dikkatlice ölçülen kısa başlangıç mesafelerinden, çok daha büyük bir üçgenler ağı kurdu.",
+      "Bir üçgenin bir kenarını ve bakış doğrultularını bildiğinde diğer kenarlarına ulaşabilirsin. Bulduğun yeni kenar, bir sonraki üçgenin başlangıcı olur. Böylece her yolun üzerinden cetvelle geçmek gerekmez.",
+      "Bu düşüncenin öncüleri vardı; Gemma Frisius daha önce üçgenlemeyi önermişti. Snellius'un önemli katkısı, yöntemi geniş bir bölgenin ve Dünya boyutunun ölçümünde uygulamasıydı."
+    ],
+    "analogy": "İki gözünü sırayla kapatıp yakındaki parmağına bak. Parmağın arka plana göre yer değiştirmesi, iki ayrı bakışın uzaklık bilgisi taşıdığını gösterir.",
+    "steps": [
+      "Kısa ve erişilebilir bir taban çizgisini dikkatle ölç.",
+      "Tabanın iki ucundan aynı kuleye bak; bakış açıklıklarını kaydet.",
+      "Bulunan kenarları yeni üçgenlere aktar, uzak kentleri aynı ağa bağla."
+    ],
+    "tools": [
+      "Ölçülmüş taban çizgileri",
+      "Açı ölçer",
+      "Birbirini gören kuleler",
+      "Üçgen hesapları"
+    ],
+    "result": "Alkmaar ile Bergen op Zoom arasındaki yaklaşık 130 km'lik bölgeyi bir üçgenler ağına bağladı. 1617 tarihli Eratosthenes Batavus, Dünya ölçümünde üçgenlemenin önemli erken uygulamalarındandır.",
+    "uncertainty": "Başlangıç çizgisindeki ve açılardaki hatalar ağa yayılır. Uzun hatlarda Dünya'nın eğriliği, yükseklik farkları ve bağımsız kontrol ölçümleri hesaba katılmalıdır.",
+    "impact": "Tek bir yol ölçümünden, büyük bir alanı birbirine bağlayan ölçüm ağına geçişi güçlendirdi.",
+    "funFact": "Kitabının adı onu 'Hollandalı Eratosthenes' olarak tanıtır: eski bir soru için yeni bir ölçüm düzeni.",
+    "takeaway": "Bir kenar ve iki bakış doğrultusu, yürüyemediğimiz mesafelere ulaşmamızı sağlar.",
+    "more": "İlk üçgende bulduğun kenarı sonraki üçgende yeniden kullanabilirsin. Ancak ilk ölçüyü biraz yanlış alırsan bütün ağın ölçeği etkilenir; bu yüzden ek kontrol çizgileri gerekir.",
+    "math": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}",
+    "quiz": [
+      {
+        "question": "Üçgenlemenin en büyük kolaylığı hangisi?",
+        "options": [
+          "Hiç ölçüm gerektirmemesi",
+          "Her uzaklığı yerde baştan sona ölçmeyi azaltması",
+          "Bütün açı hatalarını yok etmesi"
+        ],
+        "correct": 1,
+        "explanation": "Ölçülen bir taban ve bakışlar, erişilemeyen kenarların hesaplanmasını sağlar."
+      },
+      {
+        "question": "İlk taban çizgisini yanlış ölçersek ne etkilenebilir?",
+        "options": [
+          "Bütün ağın ölçeği",
+          "Yalnızca haritanın rengi",
+          "Hiçbir şey"
+        ],
+        "correct": 0,
+        "explanation": "Sonraki kenarlar ilk uzunluğa dayanır; hata ağ boyunca taşınabilir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "University of St Andrews · Willebrord Snell biyografisi",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Snell/"
+      },
+      {
+        "title": "University of St Andrews · Snellius, Frisius ve ölçüm ağı",
+        "url": "https://mathshistory.st-andrews.ac.uk/Strick/snell.pdf"
+      }
+    ]
+  },
+  {
+    "id": "picard",
+    "title": "Daha keskin bir bakış",
+    "person": "Jean Picard ve çalışma arkadaşları",
+    "date": "1669–1670 · yayın 1671",
+    "place": "Paris meridyeni çevresi, Fransa",
+    "era": "Modern",
+    "year": 1669,
+    "coords": [
+      48.84,
+      2.34
+    ],
+    "hook": "Aynı fikri daha iyi bir aletle uygularsan ne değişir?",
+    "story": [
+      "Jean Picard, Dünya'nın boyutunu daha duyarlı bulmak isteyen bir gözlemevi ve akademi çevresinin parçasıydı. Üçgenleme fikrini, teleskop ve ince nişan çizgisi bulunan açı ölçerlerle geliştirdi.",
+      "Uzak bir kuleye çıplak gözle bakmakla, onu büyütülmüş görüntüde ince bir çizgiye oturtmak aynı değildir. Daha iyi nişan almak açı okumalarını iyileştirdi. Ölçülen ağ, gökteki konum farkıyla birleşince Dünya'nın boyutu daha güvenilir hesaplanabildi.",
+      "Paris Gözlemevi'nin aktardığına göre bu Dünya boyutları 1684'te Newton'a ulaştı ve çekim çalışmalarında kullanıldı. Yerdeki dikkatli bir ölçüm, gökteki hareketleri açıklamaya yardım etmişti."
+    ],
+    "analogy": "Uzaktaki bir hedefe kalın bir kalemle işaret koymak yerine ince uçlu kalem kullanmak gibi: hedef aynı, onu seçme duyarlığın daha iyi.",
+    "steps": [
+      "Başlangıç uzunluğunu denetlenmiş bir birimle ölç.",
+      "Teleskoplu açı ölçerle üçgenler ağını kur.",
+      "Uçlardaki astronomik konum farkıyla ağın kuzey-güney uzunluğunu eşle."
+    ],
+    "tools": [
+      "Teleskoplu çeyrek daire",
+      "İnce nişan çizgisi",
+      "Taban ölçüm araçları",
+      "Üçgen ağı ve gök gözlemleri"
+    ],
+    "result": "Bir meridyen derecesi için yaklaşık 57.060 toise. Dönemin toisesiyle yaklaşık 111,2 km ölçeğindedir. Bir dereceden bütün Dünya'ya geçiş, burada küreye yakın bir model varsayar.",
+    "uncertainty": "Daha iyi alet bütün hataları yok etmez. Taban uzunluğu, açı okuması, yerel düşey ve atmosfer etkileri kalır. Dünya'nın basıklığı sonraki ölçümlerde daha açık ele alınır.",
+    "impact": "Duyarlı aletlerin ve düzenli ölçüm ağlarının gezegen ölçeğindeki kuramlara dayanak olabileceğini gösterdi.",
+    "funFact": "Mesure de la Terre adlı kitap, ölçüm ağını ve kullanılan aletleri gösteren çizimlerle yayımlandı.",
+    "takeaway": "Bilim bazen yeni bir fikir kadar, eski fikri daha duyarlı ölçmekle de ilerler.",
+    "more": "Yuvarlak örnek: Bir dereceyi 111,2 km alırsak 111,2 × 360 = 40.032 km çıkar. Bu basit büyütme, Dünya'nın her yerde aynı kıvrıldığı varsayımını içerir.",
+    "math": "C_{\\mathrm{küre}}=360L_{1^\\circ},\\qquad 57060\\times1.9490366\\;\\mathrm{m}\\approx111212\\;\\mathrm{m}",
+    "quiz": [
+      {
+        "question": "Teleskoplu nişan almak neyi iyileştirir?",
+        "options": [
+          "Uzak hedefin doğrultusunu daha iyi seçmeyi",
+          "Dünya'nın şeklini değiştirmeyi",
+          "Mesafe birimini gereksiz kılmayı"
+        ],
+        "correct": 0,
+        "explanation": "Hedefi daha ince seçmek, küçük açı farklarının daha iyi okunmasını sağlar."
+      },
+      {
+        "question": "Daha iyi alet kullanınca hatalar bütünüyle kaybolur mu?",
+        "options": [
+          "Evet, her zaman",
+          "Hayır, başka hata kaynakları kalır",
+          "Yalnızca gece kaybolur"
+        ],
+        "correct": 1,
+        "explanation": "Aletin yanında ölçüm düzeni, atmosfer ve başlangıç uzunluğu da önemlidir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Observatoire de Paris · Picard ve Dünya yarıçapının üçgenlemeyle ölçülmesi",
+        "url": "https://bibnum.obspm.fr/la-triangulation-ou-comment-calculer-la-valeur-du-rayon-terrestre"
+      },
+      {
+        "title": "Observatoire de Paris · Ölçüm aletleri üzerine tartışma",
+        "url": "https://bibnum.obspm.fr/debat-autour-des-instruments"
+      }
+    ]
+  },
+  {
+    "id": "french-expeditions",
+    "title": "Dünya tam bir top mu?",
+    "person": "Maupertuis, Clairaut, La Condamine, Bouguer, Godin ve sefer ekipleri",
+    "date": "1730'lar ve 1740'lar",
+    "place": "Laponya ve o dönemin Peru bölgesi; bugünkü Ekvador",
+    "era": "Modern",
+    "year": 1736,
+    "coords": [
+      66.5,
+      23.7
+    ],
+    "hook": "Dünya'yı ölçtük; peki her yönde aynı büyüklükte mi?",
+    "story": [
+      "Newton'un dönme ve çekim düşünceleri Dünya'nın kutuplardan biraz basık olmasını bekliyordu. Cassini çevresindeki bazı ölçümler ise farklı bir şekle işaret etmişti. Tartışmayı yalnızca otoriteye başvurarak bitirmek mümkün değildi.",
+      "Fransız bilim çevresi iki uzak bölgeye ekipler gönderdi: biri kuzeyde Laponya'ya, diğeri Ekvator yakınındaki Andlar'a. İkisi de aynı gök değişimine karşılık gelen kuzey-güney mesafesini ölçtü.",
+      "Kuzeydeki bir derecelik yolun daha uzun olması, kutuplara yakın yüzeyin daha yavaş kıvrılmasıyla uyumluydu. Seferler ve Fransa'daki sonraki kontroller, kutuplardan basık Dünya modelinin kabulünü güçlendirdi."
+    ],
+    "analogy": "Bir topu üstten ve alttan hafifçe sık. Kutuplara yakın yüzey daha yassı olur; aynı yön değişimi için orada daha uzun yol gerekir.",
+    "steps": [
+      "Kutup yakınında ve Ekvator yakınında aynı tür meridyen yayı seç.",
+      "Her bölgede taban, açı ve gök gözlemleriyle yay uzunluğunu ölç.",
+      "Aynı gök değişimi için gereken yolları karşılaştır; küre modelini sına."
+    ],
+    "tools": [
+      "Üçgenleme ağı",
+      "Açı ve yıldız ölçerleri",
+      "Duyarlı taban ölçüleri",
+      "Birbirinden uzak saha ekipleri"
+    ],
+    "result": "Dünya kusursuz bir küre değildir; kutuplardan basık, Ekvator'dan şişkindir. Bugün Ekvator çevresi yaklaşık 40.075 km, kutuplardan geçen tam çevre yaklaşık 40.008 km'dir. Bunlar aynı ölçü değildir.",
+    "uncertainty": "Seferlerin koşulları, taban ölçüleri, yerel çekim ve atmosfer etkileri hassas işi zorlaştırdı. Bir derecenin uzunluğu enleme göre değiştiği için her yerel sonucu 360'la çarpmak gerçek meridyen çevresini tam vermez.",
+    "impact": "Tek bir çevre sayısının ötesine geçip Dünya'nın biçimini ölçme dönemini güçlendirdi.",
+    "funFact": "Tarihsel kaynaklardaki 'Peru seferi' adı, ölçümlerin bugünkü Peru Cumhuriyeti'nde yapıldığı anlamına gelmez; alan o dönemin sömürge coğrafyasına göre adlandırılır.",
+    "takeaway": "Dünya'nın boyutunu söylerken hangi yoldan dolaştığımızı da belirtmeliyiz.",
+    "more": "40.075 − 40.008 = yaklaşık 67 km. Büyük bir gezegende bu küçük fark bile Dünya'nın tam küre olmadığını gösterir.",
+    "math": "f=\\frac{a-b}{a},\\qquad a>b,\\qquad C_{\\mathrm{ekvator}}=2\\pi a",
+    "quiz": [
+      {
+        "question": "Dünya'nın hangi çevresi biraz daha uzundur?",
+        "options": [
+          "Ekvator çevresi",
+          "Kutuplardan geçen çevre",
+          "İkisi zorunlu olarak eşit"
+        ],
+        "correct": 0,
+        "explanation": "Dünya dönmesi nedeniyle Ekvator çevresinde hafifçe şişkindir."
+      },
+      {
+        "question": "İki çok uzak bölgede aynı tür ölçümü yapmak neyi sınar?",
+        "options": [
+          "Bütün haritaların rengini",
+          "Dünya'nın her yerde aynı biçimde kıvrılıp kıvrılmadığını",
+          "Gecenin hiç bitmediğini"
+        ],
+        "correct": 1,
+        "explanation": "Aynı yön değişimi için farklı yol uzunluğu, yüzeyin kıvrılmasının değiştiğini gösterir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "IGN · Dünya'nın şeklinin ölçülmesi tarihi",
+        "url": "https://www.ign.fr/mag/la-forme-de-la-terre-dans-lhistoire-occidentale"
+      },
+      {
+        "title": "Filipinler meteoroloji kurumu PAGASA · Dünya boyutları",
+        "url": "https://pagasa.dost.gov.ph/learnings/faqs-and-trivias"
+      },
+      {
+        "title": "NGA · WGS 84 elipsoidi ve tanımlayıcı parametreler",
+        "url": "https://earth-info.nga.mil/index.php?action=wgs84&dir=wgs84"
+      }
+    ]
+  },
+  {
+    "id": "metre",
+    "title": "Gezegenden bir ölçü birimi",
+    "person": "Jean-Baptiste Delambre ve Pierre Méchain",
+    "date": "1792–1798 · metre standardı 1799",
+    "place": "Dunkirk–Paris–Barselona",
+    "era": "Modern",
+    "year": 1792,
+    "coords": [
+      48.84,
+      2.34
+    ],
+    "hook": "Herkesin kullanabileceği bir cetvelin uzunluğunu kim belirlemeli?",
+    "story": [
+      "Farklı kentlerin farklı uzunluk birimleri kullanması alışverişi ve bilimi zorlaştırıyordu. Fransız Devrimi döneminde yeni bir ortak birim için Dünya'nın kendisi dayanak seçildi.",
+      "Delambre ve Méchain, Dunkirk ile Barselona arasındaki meridyen yayını ölçmekle görevlendirildi. Bütün kutup yolunu yürümek yerine bir bölümden yararlanıp Dünya modeliyle daha büyük uzaklığa geçeceklerdi.",
+      "Méchain'in gözlemleri arasındaki uyumsuzluğu gizlemesi, kusursuz sonuç arzusunun insani bir hikâyesidir. Fakat metrenin Dünya ölçüsüyle tam örtüşmemesini yalnızca bu olaya bağlamak doğru değildir. Dünya modeli ve yerel ölçüm etkileri de önemlidir."
+    ],
+    "analogy": "Herkesin kendi adımını cetvel saydığı bir sınıf düşün. Ortak bir cetvele geçmek, bütün öğrencilerin aynı uzunluğu aynı adla anlatmasını sağlar.",
+    "steps": [
+      "Ekvator'dan Kuzey Kutbu'na giden meridyen yolunu ortak dayanak olarak seç.",
+      "Bu yolun erişilebilir bir bölümünü üçgenleme ve yıldız gözlemleriyle ölç.",
+      "Dünya modelinden bütün çeyrek çevreye geç ve ortak metre standardını üret."
+    ],
+    "tools": [
+      "Üçgenleme ağı",
+      "Tekrarlayan açı ölçer",
+      "Duyarlı taban ölçüleri",
+      "Astronomi gözlemleri",
+      "Ortak uzunluk standardı"
+    ],
+    "result": "Başlangıç fikrinde metre, Paris meridyeni boyunca Ekvator–Kuzey Kutbu uzaklığının on milyonda biriydi. Bu yüzden tam meridyen turu yaklaşık 40.000 km ölçeğindedir; modern karşılığı yaklaşık 40.008 km'dir.",
+    "uncertainty": "Tarihsel metreyi tam doğru bir Dünya bölümü sanmamalıyız. Gözlem, yerel düşey ve Dünya şekli modelindeki sınırlamalar vardı. Bugün metre Dünya'yı yeniden ölçerek değil, ışık hızı ve saniye üzerinden tanımlanır.",
+    "impact": "Yerel ölçülerden ortak ve uluslararası bir ölçü sistemine geçişin simgelerinden biri oldu.",
+    "funFact": "Kutuptan Ekvator'a kadar baştan sona ölçüm yapılmadı; Fransa ve İspanya'daki bir yaydan daha büyük bir bütün hesaplandı.",
+    "takeaway": "Metre, insanların ortak ölçü arayışından doğdu; tanımı daha sonra daha güvenilir fiziksel dayanaklara geçti.",
+    "more": "İlk tasarımda bir çeyrek meridyen 10.000.000 metreydi. Dört çeyrek, 40.000.000 metre; yani 40.000 km eder. Bu tarihsel tasarımdır, bugünkü çevrenin tam değeri değildir.",
+    "math": "1\\;\\mathrm{m}_{\\mathrm{tasarım}}=\\frac{Q}{10^7},\\qquad 1\\;\\mathrm{m}_{\\mathrm{bugün}}=c\\times\\frac{1}{299792458}\\;\\mathrm{s}",
+    "quiz": [
+      {
+        "question": "Yeni bir ortak ölçü birimi neden yararlıydı?",
+        "options": [
+          "Herkesin aynı uzunluğu aynı biçimde ifade etmesini sağladığı için",
+          "Dünya'yı küçülttüğü için",
+          "Gök gözlemlerini ortadan kaldırdığı için"
+        ],
+        "correct": 0,
+        "explanation": "Ortak standart, yerel birimler arasındaki karışıklığı azaltır."
+      },
+      {
+        "question": "Bugün metre nasıl tanımlanır?",
+        "options": [
+          "Her yıl Dünya'yı yeniden ölçerek",
+          "Bir kişinin adımıyla",
+          "Işığın boşlukta belirli sürede aldığı yolla"
+        ],
+        "correct": 2,
+        "explanation": "Çağdaş tanım ışığın boşluktaki hızı ve saniyeye dayanır."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NIST · Metrenin tarihsel ve çağdaş tanımları",
+        "url": "https://www.nist.gov/si-redefinition/meter"
+      },
+      {
+        "title": "BIPM · Delambre–Méchain ölçüm seferi",
+        "url": "https://www.bipm.org/en/-/2024-10-01-metre-radio"
+      },
+      {
+        "title": "BIPM · Metrenin tarihsel gelişimi",
+        "url": "https://www.bipm.org/en/history-si/metre"
+      },
+      {
+        "title": "Annales historiques de la Révolution française · Ken Alder kitabının akademik incelemesi",
+        "url": "https://www.persee.fr/doc/ahrf_0003-4436_2005_num_342_1_2856_t1_0247_0000_2?pageId=T1_248"
+      }
+    ]
+  },
+  {
+    "id": "longitude",
+    "title": "Denizde kaybolmayan saat",
+    "person": "John Harrison ve boylam sorunu",
+    "date": "18. yüzyıl · H4 denemesi 1761",
+    "place": "İngiltere ve Atlantik deneme yolculukları",
+    "era": "Modern",
+    "year": 1761,
+    "coords": [
+      51.48,
+      0.0
+    ],
+    "hook": "Kıyı görünmüyorsa doğuya mı, batıya mı ne kadar gittiğini nasıl anlarsın?",
+    "story": [
+      "Denizciler için kuzey-güney konumunu gökten öğrenmek, doğu-batı konumunu bulmaktan daha kolaydı. John Harrison, sallanan ve sıcaklığı değişen bir gemide doğru zamanı koruyacak saatler yapmaya uğraştı.",
+      "Yanında başlangıç yerinin saatini taşıdığını düşün. Güneş'in yerel öğlesini o saatle karşılaştırırsın. Dünya döndüğü için bu zaman farkı, doğu-batı konum farkını anlatır.",
+      "Harrison'ın H4 saati 1761'de Jamaika yolculuğunda denendi. Başarılı denemeler hemen pürüzsüz bir ödül hikâyesine dönüşmedi; başka yöntemler, yeni sınamalar ve uzun bir değerlendirme süreci de vardı."
+    ],
+    "analogy": "İki arkadaşın farklı kentlerde Güneş'in en yükseğe çıktığı anı aynı saate göre karşılaştırması gibi. Öğleleri farklıysa Dünya üzerinde doğu-batı yönünde farklı yerlerdedirler.",
+    "steps": [
+      "Güvenilir saati başlangıç yerinin zamanına ayarla.",
+      "Denizde gök gözlemiyle yerel zamanı belirle.",
+      "İki zaman arasındaki farkı Dünya'nın dönüşüyle eşleştir."
+    ],
+    "tools": [
+      "Deniz saati veya kronometre",
+      "Güneş ve gök gözlemleri",
+      "Başlangıç zamanı",
+      "Seyir kayıtları"
+    ],
+    "result": "Doğu-batı konumunun zaman farkından bulunması için uygulanabilir bir yol güçlendi. Bu bir Dünya çevresi ölçümü değildir; bilinen Dünya üzerinde konum bulma problemidir.",
+    "uncertainty": "Saatin sapması konum hatasına dönüşür. Gözlem ve deniz koşulları da önemlidir. Harrison'ın öyküsü, bütün ödülü tek denemede kazanan yalnız kahraman anlatısına indirgenmemelidir.",
+    "impact": "Güvenilir deniz saatleri, astronomik yöntemlerle birlikte uzun deniz yolculuklarında konum bulmayı geliştirdi.",
+    "funFact": "H4 büyük bir cep saati gibi görünür; Harrison'ın önceki deniz saatlerinden çok daha küçüktür.",
+    "takeaway": "Zamanı doğru taşımak, Dünya üzerinde doğu-batı yönündeki yerini bulmaya yardım eder.",
+    "more": "Dünya yaklaşık 24 saatte bir döner: 360 ÷ 24 = saatte 15 derece. Bir saatlik zaman farkı, 15 derecelik boylam farkına karşılık gelir. Aynı boylam farkının kilometre karşılığı enleme göre değişir.",
+    "math": "\\Delta\\lambda=15^\\circ\\times\\Delta t_{\\mathrm{saat}},\\qquad \\delta\\lambda=15^\\circ\\frac{\\delta t_{\\mathrm{saniye}}}{3600}",
+    "quiz": [
+      {
+        "question": "Gemideki saat başlangıç yerinin zamanını doğru tutarsa neyi bulmaya yardım eder?",
+        "options": [
+          "Doğu-batı konumunu",
+          "Denizin tuzunu",
+          "Geminin rengini"
+        ],
+        "correct": 0,
+        "explanation": "Başlangıç zamanı ve yerel zamanın farkı, boylam farkına çevrilebilir."
+      },
+      {
+        "question": "Aynı boylam farkı her enlemde aynı kilometre midir?",
+        "options": [
+          "Evet",
+          "Hayır; kutuplara doğru paraleller küçülür",
+          "Yalnızca gece aynıdır"
+        ],
+        "correct": 1,
+        "explanation": "Kutuplara yaklaştıkça aynı doğu-batı yön değişimi daha kısa bir yüzey yoluna karşılık gelir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Royal Museums Greenwich · Harrison'ın saatleri ve boylam sorunu",
+        "url": "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem"
+      },
+      {
+        "title": "Royal Museums Greenwich · H4 koleksiyon kaydı",
+        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-79142"
+      }
+    ]
+  },
+  {
+    "id": "greenwich",
+    "title": "Başlangıç çizgisine birlikte karar vermek",
+    "person": "1884 Uluslararası Meridyen Konferansı delegeleri",
+    "date": "1884",
+    "place": "Washington'daki karar; Greenwich'teki referans",
+    "era": "Modern",
+    "year": 1884,
+    "coords": [
+      51.48,
+      0.0
+    ],
+    "hook": "Dünya'da doğunun ve batının sıfır noktası doğada işaretli midir?",
+    "story": [
+      "Farklı ülkeler haritalarına farklı başlangıç meridyenleri koyuyordu. Aynı yer, farklı haritalarda farklı doğu-batı adresleri alabiliyordu. Ortak bir başlangıç seyri, haberleşmeyi ve harita paylaşımını kolaylaştıracaktı.",
+      "1884'te Washington'da toplanan delegeler Greenwich'ten geçen meridyeni ortak başlangıç olarak seçti. Greenwich'e dayalı deniz haritalarının zaten yaygın kullanılması kararı etkiledi.",
+      "Ekvator Dünya'nın dönme geometrisiyle belirlenir; sıfır boylamının hangi şehirden geçeceği ise insan kararıdır. Bilimsel işlev, ekonomik kullanım ve dönemin siyasi ağırlığı aynı kararın içindeydi."
+    ],
+    "analogy": "Bir sınıfta oturma sıralarını numaralandırmak gibi. Nereden bir diye başlayacağınızı birlikte seçersiniz; sıraların gerçek yerleri değişmez.",
+    "steps": [
+      "Farklı haritaların başlangıç çizgilerini karşılaştır.",
+      "Ortak bir referans çizgisi üzerinde uzlaş.",
+      "Doğu ve batı konumlarını bu ortak çizgiye göre ifade et."
+    ],
+    "tools": [
+      "Gözlemevi meridyen aleti",
+      "Deniz haritaları",
+      "Uluslararası konferans",
+      "Ortak koordinat kuralları"
+    ],
+    "result": "Greenwich ortak sıfır boylamı referansı seçildi. Bu karar Dünya'nın yeni bir boyutunu ölçmedi; konum bilgilerinin aynı başlangıca göre paylaşılmasını sağladı.",
+    "uncertainty": "Kararı doğanın zorunlu sonucu gibi sunmak hatalıdır. Ayrıca tarihsel gözlemevi çizgisiyle modern uydu sistemlerinin sıfır referansı tam çakışmaz; kullanılan referans sistemi belirtilmelidir.",
+    "impact": "Uluslararası harita ve zaman uygulamalarında ortak referans kullanımını güçlendirdi.",
+    "funFact": "Konferans Greenwich'te değil, Washington'da yapıldı.",
+    "takeaway": "Bir konumu doğru paylaşmak için yalnızca ölçmek değil, başlangıç çizgisinde anlaşmak da gerekir.",
+    "more": "İki harita farklı sıfır çizgileri kullanıyorsa aynı yerin boylam sayısı farklı olabilir. Dönüşüm için başlangıçlar arasındaki farkı ekler veya çıkarırsın; yeri fiziksel olarak taşımazsın.",
+    "math": "\\lambda_{B}=\\lambda_{A}-\\lambda_{B,\\mathrm{başlangıç}}\\quad(\\text{aynı yön işaretleriyle})",
+    "quiz": [
+      {
+        "question": "Sıfır boylamının Greenwich'ten geçmesi ne tür bir karardır?",
+        "options": [
+          "Değiştirilemez bir doğa kanunu",
+          "Uluslararası bir referans uzlaşısı",
+          "Dünya'nın yuvarlak olmadığının kanıtı"
+        ],
+        "correct": 1,
+        "explanation": "Farklı bir meridyen de başlangıç seçilebilirdi; ortak kullanım için uzlaşıldı."
+      },
+      {
+        "question": "1884 konferansı nerede toplandı?",
+        "options": [
+          "Washington",
+          "Asvan",
+          "Nandana"
+        ],
+        "correct": 0,
+        "explanation": "Greenwich referansı Washington'da toplanan konferansta seçildi."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Royal Museums Greenwich · Başlangıç meridyeni neden Greenwich?",
+        "url": "https://www.rmg.co.uk/stories/time/what-prime-meridian-why-it-greenwich"
+      },
+      {
+        "title": "NGA · Modern WGS 84 referans sistemi",
+        "url": "https://earth-info.nga.mil/index.php?action=wgs84&dir=wgs84"
+      }
+    ]
+  },
+  {
+    "id": "gps",
+    "title": "Gökyüzündeki saatlerden cebindeki haritaya",
+    "person": "Uydu jeodezisi ve GPS ekipleri",
+    "date": "20. yüzyılın ikinci yarısı ve sonrası",
+    "place": "Dünya çevresindeki yörüngeler ve küresel yer ağı",
+    "era": "Uzay Çağı",
+    "year": 1994,
+    "coords": [
+      0.0,
+      0.0
+    ],
+    "hook": "Telefonun yukarıdaki uydulara cetvel uzatmadan yerini nasıl buluyor?",
+    "story": [
+      "Bir GPS alıcısı, nerede olduklarını ve sinyalin ne zaman gönderildiğini bildiren uyduları dinler. Sinyalin geliş süresi, uyduya olan uzaklık hakkında bilgi verir. Birden fazla uydu, olası yerleri daraltır.",
+      "Telefonun saati uydu saatleri kadar kusursuz değildir. Bu nedenle bağımsız üç boyutlu konum ve saat hatasını birlikte çözmek için en az dört uydu gerekir. Gerçekte çoğu alıcı daha çok uyduyu kullanır ve birçok düzeltme uygular.",
+      "Burada ölçülen esas şey bakış açıları değil, sinyal zamanından çıkarılan uzaklıklardır. Bu yüzden eski kule üçgenlemesiyle aynı işlem değildir. Sonuçlar, WGS 84 gibi ortak Dünya modeli ve referans sistemi içinde anlam kazanır."
+    ],
+    "analogy": "Karanlık bir odada, yeri bilinen arkadaşların sana uzaklıklarını söylüyor. Tek bilgi birçok yere uyabilir; yeni uzaklıklar olası yerleri daraltır. Gerçek GPS bunun üç boyutlu ve saat hatalı sürümüdür.",
+    "steps": [
+      "Birden fazla uydunun konum ve gönderim zamanı bilgisini al.",
+      "Sinyal sürelerinden uzaklıkları tahmin et; alıcının saat hatasını da çöz.",
+      "Atmosfer ve diğer etkileri düzeltip konumu ortak Dünya sisteminde göster."
+    ],
+    "tools": [
+      "Uydu atom saatleri",
+      "Radyo sinyalleri",
+      "GPS alıcısı",
+      "Yer kontrol ağı",
+      "WGS 84 ve düzeltme modelleri"
+    ],
+    "result": "Sıradan telefonlarda açık gökyüzünde genellikle metre ölçeğinde konum; özel alıcılar, düzeltmeler ve uygun yöntemlerle santimetre ölçeği. 'GPS her zaman santimetre doğrudur' denemez.",
+    "uncertainty": "Binalar sinyali engelleyebilir veya yansıtabilir. Atmosfer, uydu geometrisi, alıcı ve saat hataları sonucu etkiler. Haritadaki işaret ile gerçek fiziksel konum arasında belirsizlik vardır. Haritadaki nokta küresel sistemi temsil eder; tek bir ölçüm yeri değildir.",
+    "impact": "Gezegenin şeklinin ve hareketinin sürekli izlenmesini; günlük seyirden deprem araştırmalarına kadar ortak konum kullanımını mümkün kıldı.",
+    "funFact": "Telefonun konum bulmak için GPS uydularına mesaj göndermesi gerekmez; uyduların yayınlarını dinlemesi yeterlidir.",
+    "takeaway": "GPS, uzaklıklara dönüşen zaman bilgilerini ortak bir Dünya sistemi içinde birleştirir.",
+    "more": "Radyo sinyali yaklaşık saniyede 300.000 km gider. Zaman ölçümündeki minicik bir fark bu yüzden metrelerce konum farkına dönüşebilir. Normal telefon sonucu ile özel ölçüm düzenini ayrı düşün.",
+    "math": "\\rho_i=\\sqrt{(x-x_i)^2+(y-y_i)^2+(z-z_i)^2}+c\\,\\Delta t+\\varepsilon_i,\\qquad i\\geq 4",
+    "quiz": [
+      {
+        "question": "GPS yer bulmak için temelde neyi kullanır?",
+        "options": [
+          "Uyduya bakışın rengini",
+          "Sinyalin yolculuk süresinden çıkarılan uzaklığı",
+          "Telefonun ekran büyüklüğünü"
+        ],
+        "correct": 1,
+        "explanation": "Bilinen sinyal hızı ve yolculuk süresi, uyduya uzaklık bilgisi verir."
+      },
+      {
+        "question": "Dördüncü uydu bağımsız konum çözümünde neden gerekir?",
+        "options": [
+          "Alıcının saat hatasını da çözmek için",
+          "Sadece pil şarj etmek için",
+          "Dünya'yı döndürmek için"
+        ],
+        "correct": 0,
+        "explanation": "Üç konum bileşeni yanında alıcının saat sapması da bilinmeyendir."
+      },
+      {
+        "question": "Her telefondaki GPS her koşulda santimetre doğru mudur?",
+        "options": [
+          "Evet",
+          "Hayır; alıcı, ortam ve düzeltmeler önemlidir",
+          "Sadece ekran parlakken"
+        ],
+        "correct": 1,
+        "explanation": "Santimetre düzeyi özel yöntemler gerektirebilir; tüketici alıcıları genellikle metre ölçeğindedir."
+      }
+    ],
+    "sources": [
+      {
+        "title": "FAA · GPS nasıl çalışır, dört uydu ve saat çözümü",
+        "url": "https://www.faa.gov/about/office_org/headquarters_offices/ato/service_units/techops/navservices/gnss/gps/howitworks"
+      },
+      {
+        "title": "GPS.gov · Trilaterasyon eğitim etkinliği",
+        "url": "https://www.gps.gov/trilateration"
+      },
+      {
+        "title": "GPS.gov · Konum doğruluğu ve koşulları",
+        "url": "https://www.gps.gov/gps-accuracy"
+      },
+      {
+        "title": "NGA · WGS 84 tanımı ve referans sistemi",
+        "url": "https://earth-info.nga.mil/index.php?action=wgs84&dir=wgs84"
+      }
+    ]
+  }
+]

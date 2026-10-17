@@ -1,0 +1,30 @@
+[
+  {
+    "file": "earth.webp",
+    "source": "NASA Johnson Space Center",
+    "date": "1972-12-07",
+    "record": "https://science.nasa.gov/resource/the-blue-marble/",
+    "original": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/i/IMG004849.jpg",
+    "rights": "NASA image; educational use with credit; no endorsement implied"
+  },
+  {
+    "file": "astrolabe.webp",
+    "source": "The Metropolitan Museum of Art",
+    "object": "91.1.535a–h",
+    "record": "https://www.metmuseum.org/art/collection/search/444408",
+    "rights": "Public Domain / Met Open Access CC0"
+  },
+  {
+    "file": "sundial.webp",
+    "source": "The Metropolitan Museum of Art",
+    "record": "https://www.metmuseum.org/art/collection/search/188861",
+    "rights": "Public Domain / Met Open Access CC0"
+  },
+  {
+    "file": "idrisi-map.webp",
+    "source": "National Library of Israel, Eran Laor Map Collection",
+    "record": "https://www.nli.org.il/he/maps/NNL_ALEPH990025938860205171/NLI",
+    "rights": "Public domain; Konrad Miller 1928 reconstruction, not Idrisi original",
+    "imageRecord": "https://commons.wikimedia.org/wiki/File:Konrad_Miller,_Charta_Rogeriana_Weltkarte_des_Idrisi_vom_Jahr_1154_n.Ch_(FL147394372_2593886).jpg"
+  }
+]
